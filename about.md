@@ -12,8 +12,10 @@ I was born in Pune in Maharashtra, India. My interest in Astronomy began when I 
 
 <div class="pull-right">
 <img src="/assets/me.jpg" />
-<figcaption>Here's me at the Golden Gate bridge in San Francisco.</figcaption>
+<figcaption><strong>Here's me at the Golden Gate bridge in San Francisco.</strong></figcaption>
 </div>
+
+<br>
 
 All the while, I was taking online courses on [Coursera](https://www.coursera.org/), [edX](https://www.edx.org/), and [Stanford Online](https://lagunita.stanford.edu/courses) in various Physics and Astronomy courses, as well as a few programming courses. One of my favorite courses was Introduction to Astronomy, by Prof. Ronen Plesser. Another course which I enjoyed, and personally believe to be the best and most comprehensive introduction to Python, is [An Introduction to Interactive Programming in Python](https://www.coursera.org/learn/interactive-python-1).
 
