@@ -5,8 +5,8 @@ highlighter:      rouge
 # Setup
 title:            Nihan Pol
 #tagline:          'A Jekyll theme'
-description:      My homepage
-url:              "https://nihanpol.github.io/about"
+description:      An Astrophysicist in training!
+url:              "https://nihanpol.github.io/about.html"
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
@@ -15,7 +15,7 @@ baseurl:          # the optional subpath of your site, e.g. "/blog"
 
 author:
   name:           Nihan Pol
-  url:            
+  url:            "https://nihanpol.github.io/about.html"
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -34,4 +34,4 @@ sidebar_home_link:  true
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/fongandrew/hydeout
+  repo:             https://github.com/NihanPol/nihanpol.github.io
