@@ -26,7 +26,7 @@ star up to very high rotational frequencies, or conversely, very small rotationa
 
 ## How do we see these neutron stars?
 
-In 1967, then graduate student, Dame Jocelyn Bell discovered periodic radio pulses coming from an unkown source in the sky.
+In 1967, then graduate student, Dame Jocelyn Bell-Burnell discovered periodic radio pulses coming from an unkown source in the sky.
 She, along with collaborators, determined that this periodic pulsed emission was likely coming from neutron stars. Since
 they emit this pulsed radio emission, these neutron stars are called "pulsars". This hypothesis was confirmed 
 with subsequent discoveries of this type of emission, especially that from the Crab pulsar.
@@ -35,10 +35,27 @@ Most of the pulsars that have been observed have been discovered using radio tel
 Australia or the Arecibo radio telescope in Puerto Rico, USA. I make use of the Green Bank Telescope in Green Bank, WV, USA 
 to observe pulsars. Pulsars have also been observed in other wavelength bands such as optical, X-rays and gamma rays.
 
+It is important to point out that not all neutron stars are visible as pulsars (in any wavelength band). The exact 
+mechanism for the switching on of this pulsar emission mechanism in neutron stars is still unkown.
+
 ## Double Neutron Star systems:
 
 A lot of my research deals with double neutron star (DNS) systems. These systems are extremely rare, with only 18 of them
 discovered so far, compared to the approximately 2800 pulsars discovered.
 The process above describes the formation of a single, isolated neutron star. However, in the Universe,
 we commonly find stars in pairs, orbiting each other in what are called binary systems. When we have two 
-such massive stars orbiting each other and one of them runs out of fuel, it goes through 
+suitably massive stars orbiting each other and one of them runs out of fuel, it goes through the process described above to
+form a neutron star. Usually the supernova explosion in which the neutron star or pulsar is born is powerful and violent
+enough to disrupt this system. However, if the supernova explosion does not disrupt the system, then we have a binary neutron
+star (BNS) system, which has a neutron star orbiting and a main sequence star in orbit around each other. We have observed
+many such BNS systems in our Milky Way.
+
+As the second main sequence star evolves through its life, it follows approximately the same steps as the first formed
+neutron star. Consequently, we need this binary system to survive this second supernova explosion just like the first one.
+If this second star is sufficiently heavy and the binary system survives the two supernova explosions, then we have a
+binary system with two neutron stars, called a double neutron star (DNS) system. On the other hand, if the second star is
+not sufficiently heavy, then it ends its life by forming a white dwarf and the subsequent binary system (assuming it
+survives) is called a neutron star-white dwarf (NS-WD) binary system.
+
+
+
