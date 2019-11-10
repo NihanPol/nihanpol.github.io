@@ -8,7 +8,7 @@ I'm a PhD student in Astrophysics at West Virginia University, in Morgantown, WV
 
 ### Origin story:
 
-I was born in Pune in Maharashtra, India. My interest in astronomy began when I was young, and my grandfather would talk to me about space-time and different non-Euclidean geometries. That interest developed as I grew up. On graduating from high school, I could not secure an admission to an undergraduate program in the Physics and Astronomy that I liked. So I decided to do my undergraduate in engineering, with a specialization in Electronics and Telecommunications. This involved a reasonable amount of Physics, and also gave me the background that I might need should I decide to design telescopes in my career.
+I was born in Pune in Maharashtra, India. My interest in astronomy began when I was young, and my grandfather would talk to me about space-time and different non-Euclidean geometries. As a result of this, I began reading about physics and astronomy from popular science books, and never stopped. On graduating from high school, I did my undergraduate studies in engineering, with a specialization in Electronics and Telecommunications.
 
 <div class="pull-right">
 <img src="/assets/me.jpg" />
