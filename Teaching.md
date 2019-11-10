@@ -13,7 +13,7 @@ Apart from teaching Physics and Astronomy, I also like to teach software program
 
 I have taught software carpentry workshops at the following institutes:
 1. West Virginia University:
-  - (Workshop 1](https://nihanpol.github.io/2018-01-27-wvu/)
+  - [Workshop 1](https://nihanpol.github.io/2018-01-27-wvu/)
   - [Workshop 2](https://ncf0003.github.io/2019-10-26-wvu/)
 2. [Texas Tech University](https://carpentries-workshops.github.io/2018-10-05-ttu/)
 3. [Stanford University](https://jamieshq.github.io/2018-11-29-stanford_medicine/)
