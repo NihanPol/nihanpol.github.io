@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-07-01
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Awarded PhD in Physics and Astronomy from West Virginia University. Dissertation title: Modeling the galactic compact binary neutron star population and studying the double pulsar system. Advisor: Dr. Maura McLaughlin.
