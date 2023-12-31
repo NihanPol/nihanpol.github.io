@@ -2,55 +2,38 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Nihan Pol
     - name: Languages
-      value: English, German
+      value: English, Marathi, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Physics
+      institution: West Virginia University, USA
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Dissertation title: Modeling the galactic compact binary neutron star population and studying the double pulsar system.
+        - Advisor: Dr. Maura McLaughlin.
+    - title: Masters in Physics
+      institution: West Virginia University, USA
+      year: 2018
+    - title: Bachelors in Engineering
+      institution: University of Pune, India
+      year: 2015  
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Co-chair, Gravitational Wave Analysis working group
+      institution: International Pulsar Timing Array
+      year: 2023 - 
+    - title: NANOGrav Postdoctoral Researcher
+      institution: Oregon State University, USA
+      year: 2023 -
+    - title: Vanderbilt Initiative in Data-intensive Astrophysics (VIDA) Fellow
+      institution: Vanderbilt University, USA
+      year: 2020 - 2023
 
     - title: Professor of Theoretical Physics
       institution: Karl-Ferdinand University, Prague, Czechoslovakia
@@ -61,37 +44,14 @@
       institution: University of Zurich, Zurich, Switzerland
       year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+    - title: Nanohertz gravitational wave detection using pulsar timing arrays.
+    - title: Modeling the Galactic binary pulsar population and predicting rate of detections for ground-based gravitational wave detectors.
+    - title: Multi-messenger observations of ultra-compact pulsar binaries using radio telescopes and (eventually) the Laser Space Interfermoter Space Antenna (LISA).
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Football (soccer), reading, and everything Marvel and Star Wars.
