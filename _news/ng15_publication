@@ -1,14 +1,14 @@
 ---
 layout: post
-date: 2023-09-01
+date: 2023-06-28
 inline: false
 related_posts: false
 title: Landmark NANOGrav 15 yr results released
 ---
 
-[We released results](https://nanograv.org/news/15yrRelease) that showed, for the first time, evidence for the presence of a stochastic gravitational wave background permeating the Universe at nanohertz frequencies. 
+<a href="https://nanograv.org/news/15yrRelease">We released results</a> that showed, for the first time, evidence for the presence of a stochastic gravitational wave background permeating the Universe at nanohertz frequencies. 
 
-[Here's a great video](https://www.youtube.com/watch?v=c2EKbvnee3o) summarizing our work with this dataset, and the [press conference at NSF headquarters announcing our results](https://www.youtube.com/watch?v=rkdyVA0xiVI).
+<a href="https://www.youtube.com/watch?v=c2EKbvnee3o">Here's a great video</a> summarizing our work with this dataset, and the <a href="https://www.youtube.com/watch?v=rkdyVA0xiVI">press conference at NSF headquarters announcing our results</a>.
 
-In addition to [leading the search for anisotropy in the gravitational wave background](https://nanograv.org/15yr/Summary/Anisotropy), I also developed the noise analysis framework for [the timing analyses](https://nanograv.org/15yr/Summary/Timing), led the simulations team in the search for the isotropic background, co-led the investigation of the monopole, and was one of the people who wrote the [paper showing evidence for the isotropic background](https://nanograv.org/15yr/Summary/Background).
+In addition to <a href="https://nanograv.org/15yr/Summary/Anisotropy">leading the search for anisotropy in the gravitational wave background</a>, I also developed the noise analysis framework for <a href="https://nanograv.org/15yr/Summary/Timing">the timing analyses</a>, led the simulations team in the search for the isotropic background, co-led the investigation of the monopole, and was one of the people who wrote the <a href="https://nanograv.org/15yr/Summary/Background">paper showing evidence for the isotropic background</a>.
 
