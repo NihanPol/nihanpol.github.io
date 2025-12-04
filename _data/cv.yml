@@ -25,21 +25,23 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Assistant Professor
+      institution: Texas Tech University, Lubbock, TX, USA.
     - title: Co-chair, Gravitational Wave Analysis working group
       institution: International Pulsar Timing Array
-      year: 2023 - 
+      year: 2023 - 2025
     - title: NANOGrav Postdoctoral Researcher
-      institution: Oregon State University, USA
+      institution: Oregon State University, Corvallis, OR, USA.
       year: 2023 -
     - title: Vanderbilt Initiative in Data-intensive Astrophysics (VIDA) Fellow
-      institution: Vanderbilt University, USA
+      institution: Vanderbilt University, Nashville, TN, USA.
       year: 2020 - 2023
 
 - title: Academic Interests
   type: nested_list
   contents:
     - title: Nanohertz gravitational wave detection using pulsar timing arrays.
-    - title: Modeling the Galactic binary pulsar population and predicting rate of detections for ground-based gravitational wave detectors.
+    - title: Searching for and Modeling the Galactic binary pulsar population.
     - title: Multi-messenger observations of ultra-compact pulsar binaries using radio telescopes and (eventually) the Laser Space Interfermoter Space Antenna (LISA).
 
 - title: Other Interests
