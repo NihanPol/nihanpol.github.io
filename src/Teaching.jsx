@@ -5,8 +5,9 @@ function Teaching() {
         <div className="eyebrow">courses</div>
         <h1 className="name" style={{ fontSize: 'clamp(2rem, 4.5vw, 3rem)' }}>teaching</h1>
         <p className="role">
-          I teach courses on gravitational-wave astrophysics, observational methods, and introductory
-          physics. Office hours are by appointment — email me with a few times that work.
+          I teach courses on gravitational-wave and electromagnetic-wave astrophysics,
+          as well as data analysis and machine learning methods.
+          Office hours are by appointment — email me with a few times that work.
         </p>
       </header>
 
