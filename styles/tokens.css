@@ -1,0 +1,225 @@
+/* ============================================================
+   Nihan Pol Academic Site — Colors & Type
+   Derived from al-folio theme (_sass/_variables.scss + _themes.scss)
+   Source: github.com/NihanPol/nihanpol.github.io
+   ============================================================ */
+
+/* ---------- Base color palette (al-folio accent family) ---------- */
+:root {
+  /* Brand / accent */
+  --purple:            #B509AC;
+  --purple-light:      #e157db;   /* lighten($purple, 25%) approx */
+  --cyan:              #2698BA;
+  --cyan-light:        #7cc8de;
+
+  /* Status / semantic accents */
+  --red:               #FF3636;
+  --red-dark:          #B71C1C;
+  --orange:            #F29105;
+  --yellow:            #efcc00;
+  --blue:              #0076df;
+  --blue-dark:         #00369f;
+  --green:             #00ab37;
+  --green-dark:        #009f06;
+  --green-light:       #ddffdd;
+  --green-lime:        #B7D12A;
+  --green-bright:      #11D68B;
+  --pink:              #f92080;
+  --pink-light:        #ffdddd;
+
+  /* Neutrals */
+  --white:             #ffffff;
+  --black:             #000000;
+  --grey:              #828282;
+  --grey-light:        #e8e8e8;   /* lighten($grey, 40%) approx */
+  --grey-dark:         #1C1C1D;
+  --grey-900:          #212529;
+
+  /* Tip / warning / danger (block quotes) */
+  --tip:               #42b983;
+  --tip-bg:            #e2f5ec;
+  --tip-text:          #215d42;
+  --tip-title:         #359469;
+  --warn:              #e7c000;
+  --warn-bg:           #fff8d8;
+  --warn-text:         #6b5900;
+  --warn-title:        #b29400;
+  --danger:            #cc0000;
+  --danger-bg:         #ffe0e0;
+  --danger-text:       #660000;
+  --danger-title:      #cc0000;
+}
+
+/* ---------- Semantic tokens — Light theme (default) ---------- */
+:root,
+[data-theme='light'] {
+  --bg:                var(--white);
+  --fg:                var(--black);
+  --fg-muted:          var(--grey);
+  --card-bg:           var(--white);
+  --divider:           rgba(0, 0, 0, 0.1);
+  --theme:             var(--purple);     /* accent in light mode */
+  --hover:             var(--purple);
+  --hover-text:        var(--white);
+  --code-bg:           rgba(181, 9, 172, 0.05);
+  --footer-bg:         var(--grey-dark);
+  --footer-text:       var(--grey-light);
+  --footer-link:       var(--white);
+}
+
+/* ---------- Semantic tokens — Dark theme ---------- */
+[data-theme='dark'] {
+  --bg:                var(--grey-dark);
+  --fg:                var(--grey-light);
+  --fg-muted:          var(--grey-light);
+  --card-bg:           var(--grey-900);
+  --divider:           #424246;
+  --theme:             var(--cyan);       /* accent in dark mode */
+  --hover:             var(--cyan);
+  --hover-text:        var(--white);
+  --code-bg:           #2c3237;
+  --footer-bg:         var(--grey-light);
+  --footer-text:       var(--grey-dark);
+  --footer-link:       var(--black);
+}
+
+/* ============================================================
+   Typography
+   Roboto (body) + Roboto Slab (display/titles) + Material Icons
+   Loaded from Google Fonts — same as al-folio head.html
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons');
+
+:root {
+  /* Font families */
+  --font-sans:     'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  --font-slab:     'Roboto Slab', Georgia, 'Times New Roman', serif;
+  --font-mono:     ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+
+  /* Weights — al-folio commonly uses .font-weight-lighter (300) for
+     the navbar brand/title and .font-weight-bold (700) for first_name */
+  --weight-thin:    100;
+  --weight-light:   300;
+  --weight-regular: 400;
+  --weight-medium:  500;
+  --weight-bold:    700;
+
+  /* Scale — bootstrap-ish, 1rem = 16px */
+  --fs-xs:    0.75rem;   /* 12px — footer, captions */
+  --fs-sm:    0.875rem;  /* 14px — post-meta, tags */
+  --fs-base:  1rem;      /* 16px — body */
+  --fs-md:    1.2rem;    /* blockquote */
+  --fs-lg:    1.5rem;    /* h3 / publications span */
+  --fs-xl:    2rem;      /* publications h1 */
+  --fs-2xl:   2.5rem;    /* post title */
+  --fs-5xl:   5rem;      /* blog header-bar h1 */
+
+  --lh-tight: 1.2;
+  --lh-body:  1.5;
+}
+
+/* ---------- Base element defaults ---------- */
+body {
+  font-family: var(--font-sans);
+  font-size: var(--fs-base);
+  font-weight: var(--weight-regular);
+  line-height: var(--lh-body);
+  color: var(--fg);
+  background: var(--bg);
+}
+
+h1, h2, h3, h4, h5, h6,
+.post-title,
+.navbar-brand.title {
+  font-family: var(--font-sans);
+  color: var(--fg);
+}
+
+/* The signature al-folio masthead: lighter weight name,
+   bold first name. Roboto 300 + 700 mix. */
+.brand-title {
+  font-family: var(--font-sans);
+  font-weight: var(--weight-light);
+  font-size: 2rem;
+  letter-spacing: 0;
+}
+.brand-title .first {
+  font-weight: var(--weight-bold);
+}
+
+/* Page titles are all-lowercase in al-folio — see `title: about`,
+   `title: projects`, `title: publications`. Enforce via text-transform. */
+.page-title,
+.post-title {
+  font-family: var(--font-sans);
+  font-weight: var(--weight-light);
+  font-size: var(--fs-2xl);
+  text-transform: lowercase;
+}
+
+h2.category,
+h2.bibliography {
+  color: var(--divider);
+  text-align: right;
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  text-transform: lowercase;
+}
+
+/* Display hero — used on /blog header-bar */
+.display-hero {
+  font-family: var(--font-sans);
+  font-weight: var(--weight-light);
+  font-size: var(--fs-5xl);
+  color: var(--theme);
+  text-align: center;
+}
+
+/* Monospace accents — profile more-info and code */
+code, pre, .more-info {
+  font-family: var(--font-mono);
+}
+code {
+  color: var(--theme);
+  background: var(--code-bg);
+  border-radius: 3px;
+  padding: 3px;
+}
+pre {
+  color: var(--theme);
+  background: var(--code-bg);
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+/* Links — theme color, underline on hover */
+a {
+  color: var(--theme);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--theme);
+  text-decoration: underline;
+}
+
+/* Blockquote — theme-colored left border, 5px, 1.2rem */
+blockquote {
+  background: var(--bg);
+  border-left: 5px solid var(--theme);
+  margin: 1.5em 0;
+  padding: 1em;
+  font-size: var(--fs-md);
+}
+
+/* Caption / post-meta */
+.caption, .post-meta, .post-tags {
+  font-size: var(--fs-sm);
+  color: var(--fg-muted);
+}
+
+/* Footer text */
+.footer-text {
+  font-size: var(--fs-xs);
+  color: var(--footer-text);
+  background: var(--footer-bg);
+}
