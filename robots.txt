@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://nihanpol.github.io//sitemap.xml
