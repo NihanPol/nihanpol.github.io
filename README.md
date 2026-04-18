@@ -6,8 +6,8 @@ Live: https://nihanpol.github.io/
 
 ## Branches
 
-- `react-site` — current source (this branch). Static React site, JSX transpiled in-browser via Babel standalone.
-- `master` — previous Jekyll/al-folio source, kept as archive.
+- `main` — current source (this branch). Static React site, JSX transpiled in-browser via Babel standalone.
+- `master-jekyll-archive` — previous Jekyll/al-folio source, kept as archive.
 - `gh-pages` — built/published artifact served by GitHub Pages.
 
 ## Layout
@@ -39,5 +39,5 @@ All site content lives in `src/data.jsx`:
 
 ## Deploy
 
-Pushing to `react-site` triggers `.github/workflows/deploy.yml`, which publishes
+Pushing to `main` triggers `.github/workflows/deploy.yml`, which publishes
 the working tree to the `gh-pages` branch. GitHub Pages serves from `gh-pages`.
