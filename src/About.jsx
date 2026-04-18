@@ -41,7 +41,7 @@ function About({ setPage }) {
             {S.affiliations.map((a, i) => (
               <div className="aff" key={i}>
                 <span className="k">{a.k}</span>
-                <span className="v">{a.v}</span>
+                <span className="v" dangerouslySetInnerHTML={{ __html: a.v }} />
               </div>
             ))}
           </div>
@@ -85,7 +85,21 @@ function About({ setPage }) {
           <a className="more" href="#" onClick={(e) => { e.preventDefault(); setPage('publications'); }}>full list →</a>
         </div>
         <div className="pub-list">
-          {[window.PUBS_LED[0].items[0], window.PUBS_LED[1].items[0], window.PUBS_LED[3].items[0]].map((p, i) => (
+          {(() => {
+            const all = window.PUBS_LED.flatMap((y) => y.items);
+            const find = (frag) => all.find((p) => {
+              const t = p.title.toLowerCase();
+              return t.includes(frag.toLowerCase()) && !t.startsWith('erratum');
+            });
+            const selected = [
+              find('evidence for a gravitational-wave background'),
+              find('search for anisotropy in the gravitational-wave background'),
+              find('forecasting pulsar timing array sensitivity to anisotropy'),
+              find('astrophysics milestones for pulsar timing array'),
+              find('future prospects for ground-based gravitational-wave detectors'),
+            ].filter(Boolean);
+            return selected;
+          })().map((p, i) => (
             <div className="pub" key={i}>
               <div className="venue-row">
                 <span className="venue">{p.venue}</span>

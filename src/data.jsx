@@ -13,7 +13,7 @@ window.SITE = {
   email: 'npol@ttu.edu',
   phone: null,
   affiliations: [
-    { k: 'Department', v: 'Physics & Astronomy' },
+    { k: 'Current Institute', v: 'Texas Tech University' },
     { k: 'Collaborations', v: 'NANOGrav · IPTA' },
     { k: 'PhD', v: 'West Virginia University, 2020' },
   ],
@@ -857,6 +857,7 @@ window.pubLinks = (p) => {
 };
 
 window.COURSES = [
+  { code: 'ASTR 3300 / PHYS 5300', title: 'Probability, Machine Learning, and AI in Physical Sciences', term: 'Fall 2026 · Undergraduate + Graduate', blurb: 'Probability foundations, classical machine-learning methods, and modern AI applied to problems across the physical sciences. Problem sets in Python; hands-on work with real datasets.', href: null },
   { code: 'PHYS 4350 / PHYS 5300-003', title: 'General relativity', term: 'Spring 2026 · Undergraduate + Graduate', blurb: 'From the equivalence principle through Einstein\u2019s field equations to modern applications including gravitational-wave detection.', href: null },
   { code: 'ASTR 4305', title: 'Radiative processes in astrophysics', term: 'Fall 2025 · Undergraduate', blurb: 'Emission and absorption mechanisms across the electromagnetic spectrum \u2014 synchrotron, bremsstrahlung, Compton, line radiation \u2014 with applications to pulsars, AGN, and the interstellar medium.', href: null },
   { code: 'ASTR 3300 / PHYS 5300', title: 'Astrostatistics', term: 'Spring 2025 · Undergraduate + Graduate', blurb: 'Frequentist and Bayesian methods applied to real astronomical data. Problem sets in Python; materials open-sourced on GitHub.', href: 'https://github.com/NihanPol/ASTR_3300_S2025' },
